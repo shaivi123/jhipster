@@ -15,6 +15,14 @@ import passwordReset, { PasswordResetState } from 'app/modules/account/password-
 import student, {
   StudentState
 } from 'app/entities/student/student.reducer';
+// prettier-ignore
+import country, {
+  CountryState
+} from 'app/entities/country/country.reducer';
+// prettier-ignore
+import college, {
+  CollegeState
+} from 'app/entities/college/college.reducer';
 /* jhipster-needle-add-reducer-import - JHipster will add reducer here */
 
 export interface IRootState {
@@ -28,6 +36,8 @@ export interface IRootState {
   readonly password: PasswordState;
   readonly settings: SettingsState;
   readonly student: StudentState;
+  readonly country: CountryState;
+  readonly college: CollegeState;
   /* jhipster-needle-add-reducer-type - JHipster will add reducer type here */
   readonly loadingBar: any;
 }
@@ -43,6 +53,8 @@ const rootReducer = combineReducers<IRootState>({
   password,
   settings,
   student,
+  country,
+  college,
   /* jhipster-needle-add-reducer-combine - JHipster will add reducer here */
   loadingBar
 });

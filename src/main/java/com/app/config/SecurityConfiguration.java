@@ -100,3 +100,6 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         return new JWTConfigurer(tokenProvider);
     }
 }
+
+//Added new field in existing entity using CLI
+//Liquibase databasechangelog

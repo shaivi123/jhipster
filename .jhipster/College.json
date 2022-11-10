@@ -1,0 +1,26 @@
+{
+    "name": "College",
+    "fields": [
+        {
+            "fieldName": "clgName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "course",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20221109103127",
+    "entityTableName": "college",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*",
+    "searchEngine": false,
+    "databaseType": "sql"
+}
